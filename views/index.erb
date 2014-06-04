@@ -1,0 +1,16 @@
+<h1>All About Cats</h1>
+<div class="photo">
+  <img src="http://explosionhub.com/wp-content/uploads/2012/07/1562-cute-little-cat.jpg" />
+</div>
+
+<div class="photo">
+  <img src="/images/Turkish_Van_Cat.jpg" />
+</div>
+
+<% unless @width.to_i.zero? && @height.to_i.zero? %>
+  <div class="photo">
+    <img src="http://placekitten.com/<%= @width %>/<%= @height%>" />
+  </div>
+  <% end %>
+
+<br clear="all" />

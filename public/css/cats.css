@@ -1,0 +1,29 @@
+#wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+#wrap h1 {
+  font-weight: 300;
+  font-family: Helvetica;
+  text-align: center;
+  border-bottom: 1px solid #333333;
+}
+
+.photo {
+  border: 1px solid #333333;
+  padding: 8px;
+  width: 250 px;
+  height: auto;
+  font-size: 0;
+  float: left;
+  margin-right: 10px;
+}
+
+.photo img {
+  width: 50%;
+}
+
+nav {
+  text-align: center;
+  padding: 8px;
+}
